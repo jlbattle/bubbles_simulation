@@ -15,3 +15,10 @@ This simulator should:
 
 
 */
+
+var canvas;		//the canvas
+var context;	//for drawing on canvas
+
+
+canvas = document.getElementById("game-canvas");
+context = canvas.getContext("2d");
